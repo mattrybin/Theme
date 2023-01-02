@@ -1,0 +1,22 @@
+{
+  "name": "mattrybin-theme",
+  "displayName": "Matt Rybin Theme",
+  "description": "",
+  "publisher": "MattRybin",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MattRybin Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MattRybin Theme-color-theme.json"
+      }
+    ]
+  }
+}
