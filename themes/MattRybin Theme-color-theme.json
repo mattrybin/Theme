@@ -138,7 +138,6 @@
     // "symbolIcon.constructorForeground": "#ff0000",
     // "walkthrough.stepTitle.foreground": "#ff0000",
     // "editorLightBulbAutoFix.foreground": "#ff0000",
-    // "editorLineNumber.activeForeground": "#ff0000",
     // "errorLens.statusBarHintForeground": "#ff0000",
     // "errorLens.statusBarInfoForeground": "#ff0000",
     // "inputValidation.warningForeground": "#ff0000",
@@ -480,7 +479,6 @@
     // "settings.dropdownBorder": "#ff0000",
     // "tree.tableColumnsBorder": "#ff0000",
     // "statusBar.noFolderBorder": "#ff0000",
-    // "editorGroupHeader.border": "#ff0000",
     // "editorHoverWidget.border": "#ff0000",
     // "inputOption.activeBorder": "#ff0000",
     // "notificationToast.border": "#ff0000",
@@ -549,6 +547,12 @@
     // "editorCommentsWidget.unresolvedBorder": "#ff0000",
     // "editorCommentsWidget.rangeActiveBorder": "#ff0000",
 
+    "editorGroupHeader.border": "#18181b",
+    // "editorGroupHeader.border": "#ff0000",
+
+    "editorLineNumber.activeForeground": "#eab308",
+    "editorLineNumber.foreground": "#3f3f46",
+
     // "menu.foreground": "#ff0000",
     // "menu.background": "#ff0000",
     // "menu.border": "#ff0000",
@@ -602,7 +606,7 @@
 
     "editorGutter.background": "#000000",
     "editorGutter.addedBackground": "#22c55e",
-    "editorGutter.commentRangeForeground": "#ff00FF",
+    "editorGutter.commentRangeForeground": "#6366f1",
     "editorGutter.deletedBackground": "#f43f5e",
     "editorGutter.foldingControlForeground": "#000000",
     "editorGutter.modifiedBackground": "#6366f1",
@@ -1366,7 +1370,9 @@
         "keyword.control.from",
         "keyword.control.as",
         "punctuation.definition.comment",
-        "comment.line.double-slash"
+        "comment.line.double-slash",
+        "comment.line.number-sign.shebang.shell",
+        "comment.line.number-sign.shell"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -1395,7 +1401,9 @@
         "punctuation.definition.string.template.end",
         "variable.other.constant.property",
         "meta.jsx.children",
-        "string.template"
+        "string.template",
+        "string.interpolated.backtick.shell",
+        "meta.scope.while-loop.shell"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -1424,6 +1432,9 @@
         "storage.modifier.async",
         "keyword.operator.ternary",
         "keyword.operator.relational",
+        "support.function.builtin.shell",
+        "keyword.operator.pipe.shell",
+        "keyword.control.shell",
       ],
       "settings": {
         "fontStyle": "bold",
@@ -1451,7 +1462,11 @@
         "meta.brace.round",
         "punctuation.definition.block",
         "keyword.operator.rest",
-        "keyword.operator.type"
+        "keyword.operator.type",
+        "punctuation.definition.arguments.shell",
+        "punctuation.definition.group.shell",
+        "keyword.operator.list.shell",
+        "punctuation.definition.variable.shell"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -1496,7 +1511,9 @@
         "variable.other.object",
         "variable.other.property",
         "variable.other.readwrite",
-        "variable.parameter"
+        "variable.parameter",
+        "source.shell",
+        "string.interpolated.dollar.shell"
       ],
       "settings": {
         "fontStyle": "bold",
