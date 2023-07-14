@@ -2,8 +2,9 @@
   "name": "mattrybin-theme",
   "displayName": "Matt Rybin Theme",
   "description": "",
-  "publisher": "MattRybin",
-  "version": "1.2.0",
+  "publisher": "mattrybin",
+  "version": "1.7.0",
+  "repository": "https://github.com/mattrybin/Theme",
   "engines": {
     "vscode": "^1.73.0"
   },
